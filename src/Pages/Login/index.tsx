@@ -1,11 +1,10 @@
-import { Container } from "@chakra-ui/react";
 import React from "react";
-import SectionLogin from "../../components/SectionLogin";
 
+import SideNavBar from '../../components/SideNavBar';
 export default function  Login() {
     return (
         <>
-            <SectionLogin />
+            <SideNavBar/>
         </>
     )
 }
